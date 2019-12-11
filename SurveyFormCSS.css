@@ -1,0 +1,44 @@
+body{
+    background:linear-gradient(to right,#db1bf6,#000055);
+}
+#heading{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #EEEEEE;
+    background-image:linear-gradient(to right,#db1bf6,#000055),radial-gradient(circle at top left,#6600EE,#CC0088);
+    text-decoration: none;
+    border:2px solid transparent;
+    border-radius:20px;
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    margin-top: 3%;
+}
+.containerforsurveyform {
+    margin:2% 25% 3% 25%;
+    background: rgba(39,00,41,0.3);
+}
+.type-text{
+    width:100%;
+    border-style:solid;
+    border-color: #CC0088;
+}
+.type-text:focus{
+    border-color: #19dafa;
+    box-shadow: 0 0 20px #204;
+}
+.form-group{
+    margin:0 7%;
+}
+.description-of-the-issue{
+    color:#ffe6f2;
+}
+.checkbox-group{
+    color:rgba(7,7,7,0.8);
+}
+button{
+    background-color: #ffe6f2;
+    border-color:#CC0088;
+}
+button:active{
+    background-color: #CC0088;
+}
