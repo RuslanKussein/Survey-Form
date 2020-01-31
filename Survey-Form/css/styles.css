@@ -8,7 +8,10 @@ button{
 button:active{
     background-color: #CC0088;
 }
-#heading{
+h1{
+    padding-top:16px;
+}
+#header{
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: #EEEEEE;
@@ -18,11 +21,14 @@ button:active{
     border-radius:20px;
     background-origin: border-box;
     background-clip: content-box,border-box;
-    margin-top: 3%;
+    margin-top: 30px;
 }
 .container-for-survey-form {
     margin:2% 25% 3% 25%;
     background: rgba(39,00,41,0.3);
+}
+input:focus,select:focus,textarea:focus{
+    outline:none;
 }
 .form-group{
     margin:0 7%;
@@ -41,4 +47,34 @@ button:active{
 }
 .checkbox-group{
     color:rgba(7,7,7,0.8);
+}
+
+/*Media*/
+@media(max-width:768px){
+    h1{
+        padding-top:10px;
+        font-size:1.8rem;
+    }
+    p{
+        font-size:0.8rem;
+    }
+    #header{
+        margin-top: 25px;
+    }
+    .container-for-survey-form{
+        margin:4% 18%;
+    }
+}
+
+@media(max-width:450px){
+    h1{
+        padding-top:20px;
+        font-size:1.4rem;
+    }
+    p{
+        font-size:0.8rem;
+    }
+    .container-for-survey-form{
+        margin:4% 15%;
+    }
 }
