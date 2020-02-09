@@ -1,0 +1,89 @@
+body{
+    /*background:linear-gradient(to right,#db1bf6,#000085);*/
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,86,208,1) 41%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,86,208,1) 41%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,86,208,1) 41%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+button{
+    background-color: transparent;
+}
+button:active{
+    font-size: 1.1rem;
+}
+h1{
+    padding-top:16px;
+}
+#header{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #EEEEEE;
+    text-decoration: none;
+    border:2px solid transparent;
+    border-radius:20px;
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    margin-top: 30px;
+    background: rgb(0,15,92);
+    background: -moz-linear-gradient(180deg, rgba(0,15,92,1) 22%, rgba(0,7,179,1) 85%);
+    background: -webkit-linear-gradient(180deg, rgba(0,15,92,1) 22%, rgba(0,7,179,1) 85%);
+    background: linear-gradient(180deg, rgba(0,15,92,1) 22%, rgba(0,7,179,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000f5c",endColorstr="#0007b3",GradientType=1);
+}
+.container-for-survey-form {
+    margin:2% 25% 3% 25%;
+    background: rgba(39,00,41,0.3);
+}
+input:focus,select:focus,textarea:focus{
+    outline:none;
+}
+.form-group{
+    margin:0 7%;
+}
+.type-text{
+    width:100%;
+    border:2px solid #220044;
+}
+.type-text:focus{
+    border: 3px solid #3949ab;
+    box-shadow: 0 0 20px #204;
+}
+.description-of-the-issue{
+    color:#ffe6f2;
+}
+.checkbox-group{
+    color:rgba(7,7,7,0.8);
+}
+textarea{
+    margin-bottom: 10px;
+}
+/*Media*/
+@media(max-width:768px){
+    h1{
+        padding-top:10px;
+        font-size:1.8rem;
+    }
+    p{
+        font-size:0.8rem;
+    }
+    #header{
+        margin-top: 25px;
+    }
+    .container-for-survey-form{
+        margin:4% 18%;
+    }
+}
+
+@media(max-width:450px){
+    h1{
+        padding-top:20px;
+        font-size:1.4rem;
+    }
+    p{
+        font-size:0.8rem;
+    }
+    .container-for-survey-form{
+        margin:4% 15%;
+    }
+}
